@@ -1,2 +1,8 @@
-# single_image_dataset
-This dataset contains 33 images of repeating objects with their dot-image labels from different classes. The number of repeating instances varies considerably and ranges between 33 up to 877.
+# Single Image Dataset
+This dataset contains 33 images of repeating objects with their dot-image labels.
+The classes of the repeating objects are varied and the number of repeating instances and between 33 up to 877.
+
+The use of this dataset is for *single* image object counting.
+
+This dataset was published in "Single Image Object Counting and Localizing using Active-Learning" paper 
+https://www.cs.huji.ac.il/~inbarhub/projects/count_WACV/
