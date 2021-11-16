@@ -9,5 +9,9 @@ This dataset was published in "Single Image Object Counting and Localizing using
 https://www.cs.huji.ac.il/~inbarhub/projects/count_WACV/
 
 
-	
-![logo_count_3](https://user-images.githubusercontent.com/11428415/141968466-d3b0772a-090f-4b97-ba49-be0caaaca55d.png)
+Here are some images from the dataset: <br>
+### **Birds**
+![rsz_1birds](https://user-images.githubusercontent.com/11428415/141969128-55921426-3765-4c3d-9020-986f34b61d3f.png)
+
+### **Cars**
+![Cars](https://user-images.githubusercontent.com/11428415/141969357-a8a28d77-0685-4e8e-a3fa-5150489100d3.png)
