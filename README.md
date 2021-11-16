@@ -1,6 +1,7 @@
-# Single Image Dataset
+# Single Image Counting Dataset
+
 This dataset contains 33 images of repeating objects with their dot-image labels.
-The classes of the repeating objects are varied and the number of repeating instances and between 33 up to 877.
+The classes of the repeating objects are varied (flowers, crowd, animals atc...) and the number of repeating instances are between 33 up to 877.
 
 The use of this dataset is for *single* image object counting.
 
