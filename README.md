@@ -5,5 +5,5 @@ The classes of the repeating objects are varied (flowers, crowd, animals atc...)
 
 The use of this dataset is for *single* image object counting.
 
-This dataset was published in "Single Image Object Counting and Localizing using Active-Learning" paper 
+This dataset was published in "Single Image Object Counting and Localizing using Active-Learning" paper (WACV 2022)
 https://www.cs.huji.ac.il/~inbarhub/projects/count_WACV/
