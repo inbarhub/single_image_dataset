@@ -10,4 +10,4 @@ https://www.cs.huji.ac.il/~inbarhub/projects/count_WACV/
 
 
 	
-![alt text](https://https://github.com/inbarhub/single_image_dataset/tree/main/images/CellSml.png?raw=true)
+![logo_count_3](https://user-images.githubusercontent.com/11428415/141968466-d3b0772a-090f-4b97-ba49-be0caaaca55d.png)
