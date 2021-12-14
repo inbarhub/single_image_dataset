@@ -35,9 +35,9 @@ Here are some images from the dataset: <br>
 ## Running the code
 
 A short python program is also available for evaluating your results. </br>
-The program evaulates the number of false positive and false negative over ***one*** image. The name of the image should be supplied in the command line. </br>
+The program evaulates the number of false positive and false negative over ***one*** image. The name of the image should be supplied in the command line as described below. </br>
 
-The program assumes two files are in the main directory:
+The program assumes two files appear in the main directory:
 - image_name_gt.png - the `.png' dot file (from the dot directory in this repository).
 - image_name_ours.txt - your solution -  a text file contains all the locations of the repeating object (the number of rows of this file is the number of repetition your find).
  
