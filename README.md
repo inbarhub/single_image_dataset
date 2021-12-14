@@ -32,7 +32,7 @@ Here are some images from the dataset: <br>
 ![rsz_logs](https://user-images.githubusercontent.com/11428415/141970053-3c8fac1e-d37f-411f-bada-67b830966fb8.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-## Running the code
+## Evaluating your solution
 
 A short python program is also available for evaluating your results under `code' directory. </br>
 The program evaulates the number of false positive and false negative over ***one*** image. The name of the image should be supplied in the command line as described below. </br>
