@@ -3,7 +3,7 @@
 This dataset contains 33 images of repeating objects with their dot-image labels.
 The classes of the repeating objects are varied (flowers, crowd, animals etc...) and the number of repeating instances is between 33 up to 877.
 
-The use of this dataset is for ***single*** image object counting.
+The use of this dataset is for _single_ image object counting.
 
 This dataset was published in "Single Image Object Counting and Localizing using Active-Learning" paper (WACV 2022)
 https://www.cs.huji.ac.il/~inbarhub/projects/count_WACV/
@@ -35,7 +35,7 @@ Here are some images from the dataset: <br>
 ## Running the code
 
 A short python program is also available for evaluating your results. </br>
-The program evaulates the number of false positive and false negative over *one* image. The name of the image should be supplied in the command line. </br>
+The program evaulates the number of false positive and false negative over ***one*** image. The name of the image should be supplied in the command line. </br>
 
 The program assumes two files are in the main directory:
 - image_name_gt.png - the `.png' dot file (from the dot directory in this repository).
