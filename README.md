@@ -30,3 +30,22 @@ Here are some images from the dataset: <br>
 
 ### **Logs**
 ![rsz_logs](https://user-images.githubusercontent.com/11428415/141970053-3c8fac1e-d37f-411f-bada-67b830966fb8.png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+## Running the code
+
+A short python program is also available for evaluating your results. </br>
+The program evaulates the number of false positive and false negative over *one* image. The name of the image should be supplied in the command line. </br></br>
+
+The program assumes two files are in the main directory:
+- image_name_gt.png - the png dot file (from the dot directory in this repository).
+- image_name_ours.txt - your solution for the locations of the repeating object. As we rescale the image before applying our method (more details in the paper), these locations are a vectorize form of your output image in the new scale.
+
+For example: if the ground_truth image is 400x400, and we rescale the image to be 200x200 (the sizes of all the images can be found in conf.py), image_name_gt.png image size is 400x400, and the locations in image_name_ours.txt are the locations of the repeating object of a 200x200 image.
+
+You should use the code as follows:
+count_gt_vs_output_for_database image_name
+
+for example:
+count_gt_vs_output_for_database Chairs
+
