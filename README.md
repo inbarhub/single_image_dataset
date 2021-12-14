@@ -41,7 +41,7 @@ The program assumes two files are in the main directory:
 - image_name_gt.png - the `.png' dot file (from the dot directory in this repository).
 - image_name_ours.txt - your solution -  a text file contains all the locations of the repeating object (the number of rows of this file is the number of repetition your find).
  
-**** Please note:
+#### Please note:
 As we rescale the image before applying our method (more details in the paper), these locations should be a the locations as they appear in the new scale (the image sizes we use can be found in conf.py).
 
 For example: if the ground_truth image is 400x400, and we rescale the image to be 200x200 (as shown in conf.py):
