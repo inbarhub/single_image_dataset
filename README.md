@@ -37,21 +37,17 @@ Here are some images from the dataset: <br>
 A short python program is also available for evaluating your results. </br>
 The program evaulates the number of false positive and false negative over ***one*** image. The name of the image should be supplied in the command line as described below. </br>
 
-The program assumes two files appear in the main directory:
-- image_name_gt.png - the `.png' dot file (from the dot directory in this repository).
-- image_name_ours.txt - your solution -  a text file contains all the locations of the repeating object (the number of rows of this file is the number of repetition your find).
+You should save your solution as image_name_ours.txt and locate it in the main directory. This file should contain all the locations of the repeating object your program found (the number of rows of this file is the number of repetition).
  
 #### Please note: as we rescale the image before applying our method (more details in the paper), these locations should be a the locations as they appear in the new scale (the image sizes we use can be found in conf.py).
-
 For example: if the ground_truth image is 400x400, and we rescale the image to be 200x200 (as shown in conf.py):
-* image_name_gt.png size is 400x400
-* The locations in image_name_ours.txt are the locations of the repeating object of your solution of a 200x200 image.
+The locations in image_name_ours.txt are the locations of the repeating object of your solution of a 200x200 image.
 
-In other words, if you write a code for counting repeating object in a single image, and you resalce the image before applying your code as we did - you should just save the locations as a text file named image_name_ours.txt. Otherwise, before saving please resalce the image to fit the size in conf.py and then extract the location of your solution ans save it as image_name_ours.txt.
+In other words, if you write a code for counting repeating object in a single image scenario, and you resalce the image before applying your code as we did - you should just save the locations as a text file named image_name_ours.txt. Otherwise, before saving, please resalce the image to fit the size in conf.py and then extract the location of your solution ans save it as image_name_ours.txt.
 
 You should use the code as follows:
-count_gt_vs_output_for_database image_name
+python count_gt_vs_output_for_database.py image_name
 
 for example:
-count_gt_vs_output_for_database Chairs
+python count_gt_vs_output_for_database.py Chairs
 
