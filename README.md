@@ -44,9 +44,9 @@ For example: if the ground_truth image is 400x400, and we rescale the image to b
 
 In other words, if you write a code for counting repeating object in a single image scenario, and you resalce the image before applying your code as we did - you should just save the locations as a text file named image_name_ours.txt. Otherwise, before saving, please resalce the image to fit the size in conf.py and then extract the location of your solution ans save it as image_name_ours.txt.
 
-You should use the code as follows:
+You should use the code as follows: </br>
 python count_gt_vs_output_for_database.py image_name
 
-for example:
+for example:</br>
 python count_gt_vs_output_for_database.py Chairs
 
