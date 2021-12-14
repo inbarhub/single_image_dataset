@@ -41,13 +41,13 @@ The program assumes two files are in the main directory:
 - image_name_gt.png - the `.png' dot file (from the dot directory in this repository).
 - image_name_ours.txt - your solution -  a text file contains all the locations of the repeating object (the number of rows of this file is the number of repetition your find).
  
-#### Please note: As we rescale the image before applying our method (more details in the paper), these locations should be a the locations as they appear in the new scale (the image sizes we use can be found in conf.py).
+#### Please note: as we rescale the image before applying our method (more details in the paper), these locations should be a the locations as they appear in the new scale (the image sizes we use can be found in conf.py).
 
 For example: if the ground_truth image is 400x400, and we rescale the image to be 200x200 (as shown in conf.py):
 * image_name_gt.png size is 400x400
 * The locations in image_name_ours.txt are the locations of the repeating object of your solution of a 200x200 image.
 
-In other words, if you write a code for counting repeating object in a single image, and you resalce the image before applying your code as we did - you should just save the locations as a text file. Otherwise, before saving please resalce the image to fit the size in conf.py and then extract the location of your solution.
+In other words, if you write a code for counting repeating object in a single image, and you resalce the image before applying your code as we did - you should just save the locations as a text file named image_name_ours.txt. Otherwise, before saving please resalce the image to fit the size in conf.py and then extract the location of your solution ans save it as image_name_ours.txt.
 
 You should use the code as follows:
 count_gt_vs_output_for_database image_name
